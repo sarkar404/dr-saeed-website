@@ -1,0 +1,20 @@
+<svg width="720" height="860" viewBox="0 0 720 860" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Professional portrait placeholder</title>
+  <desc id="desc">Abstract academic portrait placeholder with flexible circuit traces.</desc>
+  <rect width="720" height="860" rx="28" fill="#0B1F3A"/>
+  <path d="M72 682C166 604 246 566 357 566C468 566 552 606 648 682V786H72V682Z" fill="#F6F9FC"/>
+  <circle cx="360" cy="310" r="138" fill="#F6F9FC"/>
+  <path d="M154 132H250C284 132 300 164 300 196V230" stroke="#11B8D8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M566 154H474C440 154 420 176 420 210V242" stroke="#7BE3EE" stroke-width="6" stroke-linecap="round"/>
+  <path d="M114 462H218C258 462 282 486 282 526V568" stroke="#C98722" stroke-width="5" stroke-linecap="round"/>
+  <path d="M606 438H506C468 438 438 468 438 506V566" stroke="#2E9D76" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="250" cy="132" r="13" fill="#11B8D8"/>
+  <circle cx="474" cy="154" r="13" fill="#7BE3EE"/>
+  <circle cx="218" cy="462" r="12" fill="#C98722"/>
+  <circle cx="506" cy="438" r="12" fill="#2E9D76"/>
+  <path d="M140 732H580" stroke="#D7E2EE" stroke-width="5" stroke-linecap="round"/>
+  <path d="M184 770H536" stroke="#D7E2EE" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <path d="M80 86H640" stroke="#7BE3EE" stroke-opacity="0.12"/>
+  <path d="M80 818H640" stroke="#7BE3EE" stroke-opacity="0.12"/>
+</svg>
+
