@@ -8,10 +8,12 @@ export const roles: TimelineItem[] = [
     period: "January 2026 - Present",
     type: "role",
     description:
-      "Provides academic and strategic leadership for engineering programs, curriculum, research, faculty development, internationalization, accreditation, and grant strategy.",
+      "Academic and strategic leader of the Faculty of Engineering and Technology, with institutional responsibility for programme development, research direction, faculty growth, accreditation, and internationalization across the engineering disciplines.",
     highlights: [
-      "Faculty leadership across electrical, computer, and allied engineering programs.",
-      "Research-grant and accreditation strategy aligned with HEC and global engineering education standards."
+      "Provides academic and administrative leadership across electrical, electronic, computer, and allied engineering programmes.",
+      "Oversees curriculum development, outcome-based education (OBE), Pakistan Engineering Council (PEC) accreditation, and HEC quality compliance.",
+      "Coordinates research direction, postgraduate growth, faculty hiring, and laboratory and infrastructure planning.",
+      "Drives strategic initiatives in internationalization, MoUs, research grants, and engagement with industry and statutory bodies."
     ]
   },
   {
@@ -21,23 +23,42 @@ export const roles: TimelineItem[] = [
     period: "June 2023 - January 2026",
     type: "role",
     description:
-      "Led institutional quality-assurance systems, program self-assessment, accreditation evidence, OBE training, and ranking submissions.",
+      "University-level head of quality assurance, responsible for aligning institutional academic and administrative practice with HEC standards, leading self-assessment, accreditation, ranking, and continuous-improvement systems.",
     highlights: [
-      "National Certified Reviewer of Higher Education Institutions after Sindh HEC 100-hour formal review training.",
-      "Led data and evidence portfolios for HEC rankings, THE Impact Rankings, THE World Ranking, and UI GreenMetric."
+      "National Certified Reviewer of Higher Education Institutions, credentialed by Sindh HEC after a 100-hour formal review training programme.",
+      "Designed and operated institutional quality-assurance frameworks: programme self-assessment, accreditation audits, and continuous-improvement cycles aligned with the HEC QEC framework.",
+      "Coordinated programme self-assessment reports for ME, MS, and PhD programmes through the QEC Programme Review Committee.",
+      "Led institutional submissions for HEC national rankings and international rankings including QS Asia / South Asia, Times Higher Education, and UI GreenMetric, building data pipelines and evidence portfolios.",
+      "Established faculty and staff training on outcome-based education (OBE), academic integrity, plagiarism review, and quality benchmarking.",
+      "Worked with statutory bodies including the Senate, Syndicate, Academic Council, Board of Advanced Studies and Research, and Board of Faculty as a member and convener on quality and academic matters."
+    ]
+  },
+  {
+    title: "Secretary, SIBA Testing Services (STS)",
+    organization: "Sukkur IBA University",
+    location: "Pakistan",
+    period: "November 2024 - February 2025",
+    type: "role",
+    description:
+      "Oversaw operations of SIBA Testing Services, the university's standardized testing arm, supporting test administration, governance, and reporting.",
+    highlights: [
+      "Coordinated test scheduling, candidate administration, and result governance.",
+      "Liaised with university leadership and external test-using institutions on STS operations."
     ]
   },
   {
     title: "Research Professor / Postdoctoral Fellow",
-    organization: "Sungkyunkwan University",
-    location: "South Korea",
+    organization: "Sungkyunkwan University (SKKU)",
+    location: "Suwon, South Korea",
     period: "May 2022 - April 2023",
     type: "international",
     description:
-      "Conducted research on EHD jet printing, flexible PDMS-based devices, and triboelectric nanogenerators with the School of Mechanical Engineering.",
+      "International postdoctoral appointment in the School of Mechanical Engineering at SKKU, advancing research on electrohydrodynamic (EHD) jet printing, flexible PDMS-based devices, and triboelectric energy harvesting.",
     highlights: [
-      "Co-authored publications in Polymers, Energy Reports, Heliyon, and Sensors and Actuators A.",
-      "Strengthened cross-border research links with East Asian and European groups."
+      "Conducted research on EHD jet printing, high-resolution PDMS device fabrication, and triboelectric / hybrid nanogenerators.",
+      "Co-authored multiple high-impact publications in Polymers, Energy Reports, Heliyon, Physica Scripta, and Sensors and Actuators A.",
+      "Strengthened cross-border research linkages between Sukkur IBA, Korean groups, and earlier Chinese / European collaborators.",
+      "Brought back research expertise that informed Sukkur IBA's flexible electronics, soft materials, and self-powered sensing capability."
     ]
   },
   {
@@ -47,10 +68,12 @@ export const roles: TimelineItem[] = [
     period: "August 2019 - January 2026",
     type: "role",
     description:
-      "Advanced flexible-sensor research capability, supervised undergraduate and graduate research, and served in statutory governance.",
+      "Senior faculty member in the Department of Electrical Engineering, advancing the flexible-sensor research line, supervising undergraduate and graduate research, and serving in university statutory governance.",
     highlights: [
-      "Member of the University Syndicate for a three-year term from October 2021.",
-      "Chief Editor of Sukkur IBA Journal of Emerging Technologies, 2018-2022."
+      "Member of the University Syndicate (statutory body), Sukkur IBA University, three-year term from October 2021.",
+      "Chief Editor, Sukkur IBA Journal of Emerging Technologies (SJET), HEC-recognized Y category, 2018-2022.",
+      "Built laboratory capability in flexible-sensor fabrication, characterization, and printed-electronics prototyping.",
+      "Active in Boards of Studies, OBE accreditation, and Programme Review Committees within the university and beyond."
     ]
   },
   {
