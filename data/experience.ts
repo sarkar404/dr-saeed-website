@@ -1,92 +1,141 @@
 import type { TimelineItem } from "./types";
 
+// Source of truth for academic & professional experience.
+// Each role mirrors the CV but with deeper website-only elaboration.
+
 export const roles: TimelineItem[] = [
   {
     title: "Dean, Faculty of Engineering and Technology",
     organization: "Sukkur IBA University",
-    location: "Pakistan",
+    location: "Sindh, Pakistan",
     period: "January 2026 - Present",
     type: "role",
     description:
-      "Academic and strategic leader of the Faculty of Engineering and Technology, with institutional responsibility for programme development, research direction, faculty growth, accreditation, and internationalization across the engineering disciplines.",
+      "Provides academic, strategic, and administrative leadership for the Faculty of Engineering and Technology, encompassing electrical engineering and allied engineering programs. Sets the academic vision, oversees curricula and accreditation, develops faculty, scales research, manages resources, and represents the Faculty within the University and with national and international partners.",
     highlights: [
-      "Provides academic and administrative leadership across electrical, electronic, computer, and allied engineering programmes.",
-      "Oversees curriculum development, outcome-based education (OBE), Pakistan Engineering Council (PEC) accreditation, and HEC quality compliance.",
-      "Coordinates research direction, postgraduate growth, faculty hiring, and laboratory and infrastructure planning.",
-      "Drives strategic initiatives in internationalization, MoUs, research grants, and engagement with industry and statutory bodies."
+      "Overall academic, administrative, and strategic leadership of the Faculty of Engineering and Technology, including the Department of Electrical Engineering and allied engineering programs.",
+      "Faculty strategic plan aligned with the University vision, HEC Pakistan policies, and international engineering education benchmarks.",
+      "Design, review, approval, and continuous improvement of undergraduate and postgraduate engineering curricula in line with Outcome-Based Education and accreditation frameworks (PEC, Washington Accord, NCEAC).",
+      "Faculty-wide program-level accreditation, self-assessment reporting, and accreditation evidence portfolios.",
+      "Faculty hiring, mentoring, performance evaluation, tenure progression, and professional development across engineering programs.",
+      "Research-grant strategy, lab development, equipment investment, industry-funded research, and inter-disciplinary collaboration.",
+      "Culture of high-quality publication output in well-indexed journals and conferences, aligned with the institutional ranking strategy.",
+      "National and international academic partnerships, exchange programs, joint research initiatives, dual-degree explorations, and visiting-scholar arrangements.",
+      "Service on statutory bodies including Faculty Council, Board of Faculty, Academic Council, BASR, Syndicate, and Senate.",
+      "Faculty budgeting, resource allocation, infrastructure planning, laboratory safety, equipment procurement, and laboratory-management policies.",
+      "Integration of LMS, CMS, and the institutional ERP system across Faculty operations.",
+      "Industry advisory boards, employability pathways, internships, capstone-industry partnerships, and engineering practicum strategy.",
+      "Continuous-improvement loops driven by graduate-attribute attainment, OBE assessment data, employer surveys, and alumni feedback.",
+      "External representation with HEC Pakistan, Sindh HEC, PEC, accreditation councils, sister universities, industry, and international engineering education networks."
     ]
   },
   {
-    title: "Director, Quality Enhancement Cell",
+    title: "Director, Quality Enhancement Cell (QEC)",
     organization: "Sukkur IBA University",
-    location: "Pakistan",
+    location: "Sindh, Pakistan",
     period: "June 2023 - January 2026",
     type: "role",
     description:
-      "University-level head of quality assurance, responsible for aligning institutional academic and administrative practice with HEC standards, leading self-assessment, accreditation, ranking, and continuous-improvement systems.",
+      "National Certified Reviewer of Higher Education Institutions, a credential conferred after successfully completing a rigorous 100-hour formal review training program of Sindh HEC. Directed the institutional quality-assurance system and led all aspects of program self-assessment, accreditation evidence, OBE training, continuous improvement, and ranking submissions.",
     highlights: [
-      "National Certified Reviewer of Higher Education Institutions, credentialed by Sindh HEC after a 100-hour formal review training programme.",
-      "Designed and operated institutional quality-assurance frameworks: programme self-assessment, accreditation audits, and continuous-improvement cycles aligned with the HEC QEC framework.",
-      "Coordinated programme self-assessment reports for ME, MS, and PhD programmes through the QEC Programme Review Committee.",
-      "Led institutional submissions for HEC national rankings and international rankings including QS Asia / South Asia, Times Higher Education, and UI GreenMetric, building data pipelines and evidence portfolios.",
-      "Established faculty and staff training on outcome-based education (OBE), academic integrity, plagiarism review, and quality benchmarking.",
-      "Worked with statutory bodies including the Senate, Syndicate, Academic Council, Board of Advanced Studies and Research, and Board of Faculty as a member and convener on quality and academic matters."
+      "Oversaw and enhanced the quality of academic programs, administrative services, and overall institutional performance.",
+      "Developed and implemented strategic plans for institutional quality enhancement, quality assurance, and continuous improvement.",
+      "Established and maintained quality benchmarks, KPIs, and program-level performance metrics aligned with HEC Pakistan and international standards.",
+      "Designed and implemented quality assurance frameworks, manuals, processes, and review templates across academic and administrative units.",
+      "Conducted regular internal quality audits, program reviews, and assessment cycles across departments, faculties, and units.",
+      "Oversaw preparation, validation, and submission of program-level Self-Assessment Reports (SARs) to HEC Pakistan.",
+      "Developed and refined University policies and SOPs for quality assurance, OBE, examinations, and academic integrity.",
+      "Monitored and evaluated the implementation of approved policies and recommended evidence-based improvements.",
+      "Collected, analyzed, and reported data on academic performance, student feedback, course-evaluation outcomes, PLO attainment, and institutional effectiveness.",
+      "Identified areas for improvement using data-driven insights and led targeted corrective-action plans.",
+      "Ensured continuous compliance with HEC Pakistan accreditation requirements, NCEAC engineering accreditation standards, and international QA practices.",
+      "Coordinated accreditation and re-accreditation processes for academic programs and the institution.",
+      "Organized faculty and staff training programs on OBE, quality assurance, SAR preparation, rubric design, and reviewer practice.",
+      "Promoted a culture of continuous improvement and quality enhancement across academic and administrative communities.",
+      "Liaised with internal and external stakeholders including faculty leadership, HEC Pakistan, Sindh HEC, NCEAC, PEC, accreditation visiting teams, and partner universities.",
+      "Prepared and presented periodic quality assurance reports to the Vice Chancellor, Senate, Syndicate, BASR, Academic Council, and statutory bodies.",
+      "Maintained comprehensive documentation of quality assurance processes, policies, manuals, evidence, and outcomes.",
+      "Identified and incorporated national and international best practices in quality assurance and quality enhancement.",
+      "Provided leadership and direction to the QEC team, distributing responsibilities and mentoring staff on review practice and data analytics.",
+      "Managed the QEC annual budget, training budget, and resources efficiently.",
+      "Led the institution submissions to HEC Pakistan national rankings of HEIs, preparing evidence dossiers, data validation, and ranking strategy.",
+      "Led international rankings engagements including Times Higher Education (THE) Impact Rankings, THE World University Rankings, and UI GreenMetric World University Rankings - SDG mapping, data audit, evidence curation, and submission management."
     ]
   },
   {
     title: "Secretary, SIBA Testing Services (STS)",
     organization: "Sukkur IBA University",
-    location: "Pakistan",
+    location: "Sindh, Pakistan",
     period: "November 2024 - February 2025",
     type: "role",
     description:
-      "Oversaw operations of SIBA Testing Services, the university's standardized testing arm, supporting test administration, governance, and reporting.",
+      "Served as Secretary of SIBA Testing Services, the University national-scale testing wing responsible for conducting standardized admission and recruitment tests across public-sector and academic clients in Pakistan.",
     highlights: [
-      "Coordinated test scheduling, candidate administration, and result governance.",
-      "Liaised with university leadership and external test-using institutions on STS operations."
-    ]
-  },
-  {
-    title: "Research Professor / Postdoctoral Fellow",
-    organization: "Sungkyunkwan University (SKKU)",
-    location: "Suwon, South Korea",
-    period: "May 2022 - April 2023",
-    type: "international",
-    description:
-      "International postdoctoral appointment in the School of Mechanical Engineering at SKKU, advancing research on electrohydrodynamic (EHD) jet printing, flexible PDMS-based devices, and triboelectric energy harvesting.",
-    highlights: [
-      "Conducted research on EHD jet printing, high-resolution PDMS device fabrication, and triboelectric / hybrid nanogenerators.",
-      "Co-authored multiple high-impact publications in Polymers, Energy Reports, Heliyon, Physica Scripta, and Sensors and Actuators A.",
-      "Strengthened cross-border research linkages between Sukkur IBA, Korean groups, and earlier Chinese / European collaborators.",
-      "Brought back research expertise that informed Sukkur IBA's flexible electronics, soft materials, and self-powered sensing capability."
+      "Executive oversight of STS testing operations: test design, item-bank management, candidate registration, and large-scale logistics.",
+      "Coordination with client institutions (universities, public-sector organizations, recruitment bodies) on test specifications, scheduling, and reporting.",
+      "Strict adherence to test-security protocols, examination ethics, and confidentiality at every stage of test development and delivery.",
+      "Supervision of the secretariat administrative, financial, and human-resource functions to deliver tests within budget and on schedule.",
+      "Compliance with regulatory, institutional, and contractual requirements for testing services.",
+      "Drafting and review of governance documents, MoUs, service-level agreements, and operational SOPs for STS.",
+      "Statistical and operational reporting to University leadership on test cycles, candidate volumes, and client outcomes."
     ]
   },
   {
     title: "Associate Professor",
-    organization: "Sukkur IBA University",
-    location: "Pakistan",
+    organization: "Sukkur IBA University, Department of Electrical Engineering",
+    location: "Sindh, Pakistan",
     period: "August 2019 - January 2026",
     type: "role",
     description:
-      "Senior faculty member in the Department of Electrical Engineering, advancing the flexible-sensor research line, supervising undergraduate and graduate research, and serving in university statutory governance.",
+      "Held the rank of Associate Professor. Combined research leadership in flexible sensors and self-powered devices with statutory governance, editorial service, and the supervision of undergraduate and postgraduate research.",
     highlights: [
-      "Member of the University Syndicate (statutory body), Sukkur IBA University, three-year term from October 2021.",
-      "Chief Editor, Sukkur IBA Journal of Emerging Technologies (SJET), HEC-recognized Y category, 2018-2022.",
-      "Built laboratory capability in flexible-sensor fabrication, characterization, and printed-electronics prototyping.",
-      "Active in Boards of Studies, OBE accreditation, and Programme Review Committees within the university and beyond."
+      "Designed and delivered core and elective courses across electronics, devices, sensors, control, instrumentation, and nanotechnology.",
+      "Member of the University Syndicate against the position of Associate Professor for a three-year term commencing October 2021.",
+      "Led the research line on flexible nanomaterial-based sensors, thermogalvanic hydrogels, and triboelectric nanogenerators with publications in high-quality international journals.",
+      "Supervised undergraduate Final Year Projects and Master of Engineering theses with publications in indexed venues.",
+      "Chief Editor, Sukkur IBA Journal of Emerging Technologies (SJET) - HEC-recognized Y-category journal, 2018-2022.",
+      "Member of statutory bodies of Sukkur IBA University: Plagiarism Committee, Board of Studies, Board of Faculty, Academic Council, BASR, Syndicate, and Senate.",
+      "Member of the Departmental OBE Accreditation Committee, Departmental Strategic Committee, Faculty Council, and QEC Program Review Committee.",
+      "External Member, Board of Studies, Department of Electronics, University of Sindh, Jamshoro.",
+      "External Member, Board of Faculty Council, Benazir Bhutto University of Technology and Skill Development.",
+      "Subject Expert (Electronics) for evaluating candidates on vacant academic and research positions.",
+      "Organized iCoMET 1st, 2nd, and 3rd editions as General Chair and Co-General Chair."
+    ]
+  },
+  {
+    title: "Research Professor / Postdoctoral Fellow",
+    organization: "Sungkyunkwan University (SKKU), School of Mechanical Engineering",
+    location: "Suwon, South Korea",
+    period: "May 2022 - April 2023",
+    type: "international",
+    description:
+      "Conducted postdoctoral and research-professorial work at SKKU, advancing electrohydrodynamic (EHD) jet-printing of soft electronics, PDMS-based flexible devices, and triboelectric nanogenerator architectures.",
+    highlights: [
+      "Designed, fabricated, and characterized flexible electronic devices using high-resolution electrohydrodynamic (EHD) jet printing of PDMS and conductive inks.",
+      "Developed multi-mode triboelectric nanogenerators (contact-mode and slide-mode TENGs) and hybrid energy-harvesting systems integrating photovoltaic and triboelectric modules.",
+      "Investigated EHD underfill flow, capillary dynamics between parallel plates, and the impact of solder-bump geometry on flow under EHD effects.",
+      "Co-authored publications in Polymers, Energy Reports, Heliyon, Sensors and Actuators A, and Physica Scripta.",
+      "Strengthened cross-border research links between South Korean, Chinese, and Pakistani research groups, supporting follow-on joint publications and exchange.",
+      "Mentored graduate students on device fabrication protocols, EHD jet printing parameters, materials characterization, and data analysis."
     ]
   },
   {
     title: "Assistant Professor",
-    organization: "Sukkur IBA University",
-    location: "Pakistan",
+    organization: "Sukkur IBA University, Department of Electrical Engineering",
+    location: "Sindh, Pakistan",
     period: "July 2012 - August 2019",
     type: "role",
     description:
-      "Designed and delivered core electrical and electronics engineering courses while establishing research in flexible sensors and nanomaterials.",
+      "Designed and delivered core and specialized engineering courses, established the research foundation in flexible sensors and nanomaterials, and built the institutional research infrastructure during a period of significant program growth.",
     highlights: [
-      "Co-organized and chaired iCoMET across its first three editions.",
-      "Led HEC-funded work on flexible nanomaterial-based sensors."
+      "Designed and delivered specialized core courses across electronics, instrumentation, control, communications, and nanotechnology.",
+      "Established the experimental research line on flexible sensors based on carbon nanomaterials.",
+      "Secured the HEC Pakistan Start-up Research Grant (2018) as Principal Investigator on Flexible Sensors based on Nanomaterials.",
+      "Co-Principal Investigator on the HEC Pakistan Start-up Research Grant (2019) for EEG-based support of paralysis patients.",
+      "Mentored undergraduate Final Year Projects in flexible electronics, energy harvesting, biomedical signal processing, and embedded electronics.",
+      "Organized and chaired iCoMET 1st, 2nd, and 3rd editions as General Chair and Co-General Chair.",
+      "Drove laboratory development, equipment procurement, and graduate-attribute-aligned lab manuals for foundational and advanced electronics laboratories.",
+      "Coordinated the Department accreditation-readiness activities, course portfolios, OBE rubric design, and PLO-CLO attainment processes."
     ]
   },
   {
@@ -94,33 +143,82 @@ export const roles: TimelineItem[] = [
     organization: "ISRA University",
     location: "Hyderabad, Pakistan",
     period: "January 2012 - July 2012",
-    type: "role"
+    type: "role",
+    description:
+      "Delivered undergraduate electronics and electrical engineering courses, supported laboratory instruction, and contributed to course-portfolio preparation.",
+    highlights: [
+      "Undergraduate lectures and laboratory sessions in electronics, circuit analysis, and electronic devices.",
+      "Prepared lecture notes, assessment instruments, lab manuals, and problem sets aligned with the program curriculum.",
+      "Mentored undergraduate students on course projects and basic research investigations."
+    ]
   },
   {
     title: "Research Assistant",
-    organization: "University of Zagreb",
-    location: "Croatia / EU",
+    organization: "University of Zagreb, Faculty of Electrical Engineering and Computing",
+    location: "Zagreb, Croatia (European Union)",
     period: "September 2010 - July 2011",
     type: "international",
     description:
-      "Erasmus Mundus research stay focused on electrical characterization of advanced silicon bipolar transistor regions."
+      "Erasmus Mundus research stay focused on advanced silicon bipolar transistor characterization, supporting the M.E. thesis on the electrical properties of fabricated transistor regions in advanced silicon bipolar technologies.",
+    highlights: [
+      "Electrical characterization of fabricated transistor regions in advanced silicon bipolar technologies using semiconductor parameter analyzers.",
+      "Analysis of device-level current-voltage, capacitance-voltage, and small-signal characteristics to extract device parameters.",
+      "Prepared technical reports, presentations, and the thesis manuscript under host-laboratory supervision.",
+      "Built international research literacy across EU and Asian engineering research environments."
+    ]
   },
   {
-    title: "Instrumentation and Electrical Engineering Roles",
-    organization:
-      "Habib Sugar Mills, Government of Pakistan, Khairpur Sugar Mills",
-    location: "Pakistan",
-    period: "January 2006 - May 2009",
+    title: "Instrumentation Engineer",
+    organization: "Habib Sugar Mills Ltd.",
+    location: "Sindh, Pakistan",
+    period: "February 2008 - May 2009",
     type: "industry",
     description:
-      "Industrial engineering experience in instrumentation, electrical maintenance, and works management."
+      "Industrial instrumentation and control engineering role in a process plant environment, responsible for the reliability of measurement, control, and automation systems.",
+    highlights: [
+      "Maintenance and calibration of process instrumentation including pressure, temperature, level, and flow measurement loops.",
+      "Tuning and support of PID control loops, DCS/PLC systems, motor-protection equipment, and field-instrumentation networks.",
+      "Preventive maintenance, instrumentation troubleshooting, and root-cause analysis of process-control issues.",
+      "Coordination with operations, electrical, and mechanical teams during shutdowns, start-ups, and capacity-improvement initiatives.",
+      "Documentation of instrument data sheets, loop drawings, and maintenance records in compliance with plant procedures."
+    ]
+  },
+  {
+    title: "Assistant Works Manager",
+    organization: "Government of Pakistan",
+    location: "Pakistan",
+    period: "April 2007 - January 2008",
+    type: "industry",
+    description:
+      "Public-sector engineering management role with responsibility for technical operations, supervision of staff, and execution of engineering works under government standards and procedures.",
+    highlights: [
+      "Supervised engineering operations, project execution, and maintenance activities under government works procedures.",
+      "Managed teams of technicians and skilled labor, ensuring safety, quality, and schedule compliance.",
+      "Prepared technical estimates, work orders, and progress reports aligned with public-sector procurement and audit requirements.",
+      "Coordinated with vendors, contractors, and inter-departmental teams to deliver engineering deliverables."
+    ]
+  },
+  {
+    title: "Electrical Engineer",
+    organization: "Khairpur Sugar Mills Ltd.",
+    location: "Khairpur, Sindh, Pakistan",
+    period: "January 2006 - December 2006",
+    type: "industry",
+    description:
+      "Entry-level electrical engineering role in a heavy-process industry, responsible for the safe operation and maintenance of electrical systems supporting plant operations.",
+    highlights: [
+      "Operation and maintenance of low- and medium-voltage power distribution systems including switchgear, transformers, and motor-control centers.",
+      "Routine and preventive maintenance, electrical protection coordination, and fault analysis for plant equipment.",
+      "Plant electrical safety, lock-out / tag-out compliance, and grounding-system audits.",
+      "Collaboration with instrumentation and mechanical teams to deliver reliable plant operations through season cycles."
+    ]
   }
 ];
 
 export const education: TimelineItem[] = [
   {
-    title: "Ph.D.",
-    organization: "University of Electronic Science and Technology of China",
+    title: "Doctor of Philosophy (Ph.D.)",
+    organization: "University of Electronic Science and Technology of China (UESTC)",
     location: "Chengdu, P.R. China",
     period: "2017",
     type: "education",
@@ -131,12 +229,12 @@ export const education: TimelineItem[] = [
   {
     title: "Master of Engineering, Electronic Systems Engineering",
     organization: "Mehran University of Engineering and Technology",
-    location: "Jamshoro, Pakistan; research stay at University of Zagreb",
+    location: "Jamshoro, Pakistan; research stay at University of Zagreb, Croatia (EU)",
     period: "2011",
     type: "education",
     description:
       "Thesis: Electrical Properties of Fabricated Transistor Regions in Advanced Silicon Bipolar Technologies.",
-    highlights: ["Erasmus Mundus Scholarship recipient."]
+    highlights: ["Erasmus Mundus Scholarship recipient - University of Zagreb, Croatia."]
   },
   {
     title: "Bachelor of Engineering, Electronics Engineering",
@@ -154,31 +252,30 @@ export const internationalExperience = [
     country: "Pakistan",
     label: "Academic leadership and engineering practice",
     detail:
-      "Dean, QEC Director, faculty member, research supervisor, and prior industrial engineering roles."
+      "Dean, QEC Director, faculty member, research supervisor, prior industrial engineering roles in process and public-sector environments."
   },
   {
     country: "China",
     label: "Doctoral research and continuing collaboration",
     detail:
-      "Ph.D. at UESTC; publications and references connect to flexible sensors, nanogenerators, and related materials research."
+      "Ph.D. at UESTC under the Chinese Government Scholarship; sustained collaboration on flexible sensors, nanogenerators, and related materials research."
   },
   {
     country: "South Korea",
     label: "Postdoctoral research at SKKU",
     detail:
-      "Research on EHD jet printing, PDMS devices, and triboelectric nanogenerators."
+      "Research Professor / Postdoctoral Fellow at Sungkyunkwan University on EHD jet printing, PDMS devices, and triboelectric nanogenerators."
   },
   {
     country: "Croatia / EU",
     label: "Erasmus Mundus research stay",
     detail:
-      "University of Zagreb research on advanced silicon bipolar transistor characterization."
+      "University of Zagreb research on advanced silicon bipolar transistor characterization, supported by the Erasmus Mundus Scholarship."
   },
   {
     country: "China collaboration",
     label: "Thermogalvanic hydrogel publications",
     detail:
-      "Co-authored work with researchers including Prof. Hulin Zhang on thermogalvanic hydrogel sensing and energy conversion."
+      "Co-authored work with researchers including Prof. Hulin Zhang on thermogalvanic hydrogel sensing and energy-conversion devices."
   }
 ];
-

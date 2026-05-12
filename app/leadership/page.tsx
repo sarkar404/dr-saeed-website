@@ -3,19 +3,17 @@ import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";
 import {
   conferenceLeadership,
-  deanResponsibilities,
   governanceRoles,
   honors,
   leadershipHighlights,
-  qecResponsibilities,
-  reviewerGroups,
-  universityRankingsContext
+  qualityEnhancementResponsibilities,
+  reviewerGroups
 } from "@/data/service";
 
 export const metadata: Metadata = {
   title: "Leadership and Service",
   description:
-    "Academic leadership, quality assurance, accreditation, governance, editorial service, conference leadership, and reviewer roles for Prof. Saeed Ahmed Khan."
+    "Academic leadership, quality enhancement, accreditation, rankings, governance, editorial service, conference leadership, and reviewer roles for Prof. Saeed Ahmed Khan."
 };
 
 export default function LeadershipPage() {
@@ -23,8 +21,8 @@ export default function LeadershipPage() {
     <>
       <PageHero
         eyebrow="Leadership and service"
-        title="Dean-level academic leadership with quality-assurance, accreditation, editorial, and reviewer service."
-        text="This page presents institutional responsibilities alongside research credibility, using CV-supported roles and avoiding unsupported leadership claims."
+        title="Dean-level engineering faculty leadership backed by national quality-assurance credentials, editorial service, and conference leadership."
+        text="Institutional responsibility presented alongside research credibility - every role grounded in the CV record."
       />
 
       <section className="bg-white py-16">
@@ -32,8 +30,9 @@ export default function LeadershipPage() {
           <SectionHeading
             eyebrow="Executive academic profile"
             title="Engineering faculty leadership and quality-enhancement systems"
+            text="From statutory leadership of an engineering faculty to the institutional quality-assurance system and a national testing wing."
           />
-          <div className="mt-10 grid gap-5 md:grid-cols-2">
+          <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {leadershipHighlights.map((item) => (
               <article className="rounded-lg border border-line bg-paper p-6 shadow-sm" key={item.title}>
                 <p className="text-sm font-semibold uppercase text-blue">{item.period}</p>
@@ -48,15 +47,14 @@ export default function LeadershipPage() {
       <section className="bg-paper py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            eyebrow="Dean - Faculty of Engineering and Technology"
-            title="Faculty leadership: programmes, accreditation, research, and internationalization."
-            text="As Dean, Prof. Khan provides academic and strategic leadership for the engineering faculty at Sukkur IBA University. The points below describe the role's institutional responsibilities aligned with HEC and PEC standards."
+            eyebrow="Quality enhancement - in detail"
+            title="What Director QEC actually meant - day to day"
+            text="A National Certified Reviewer of Higher Education Institutions (Sindh HEC, 100-hour formal review training), responsible for the full quality cycle of programs, services, and institutional performance."
           />
           <div className="mt-10 grid gap-3 md:grid-cols-2">
-            {deanResponsibilities.map((item) => (
-              <div className="flex gap-3 rounded-lg border border-line bg-white p-4 shadow-sm" key={item}>
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan" />
-                <span className="text-sm leading-6 text-slate-700">{item}</span>
+            {qualityEnhancementResponsibilities.map((item) => (
+              <div className="rounded-lg border border-line bg-white p-4 text-sm leading-6 text-slate-700" key={item}>
+                {item}
               </div>
             ))}
           </div>
@@ -64,46 +62,13 @@ export default function LeadershipPage() {
       </section>
 
       <section className="bg-white py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            eyebrow="Director - Quality Enhancement Cell"
-            title="Institutional quality assurance under the HEC QAA / QEC framework."
-            text="The Quality Enhancement Cell (QEC) at Sukkur IBA University operates under the Higher Education Commission of Pakistan's quality-assurance framework. As QEC Director, Prof. Khan led the responsibilities below."
-          />
-          <div className="mt-10 grid gap-3 md:grid-cols-2">
-            {qecResponsibilities.map((item) => (
-              <div className="flex gap-3 rounded-lg border border-line bg-paper p-4" key={item}>
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue" />
-                <span className="text-sm leading-6 text-slate-700">{item}</span>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-10 rounded-xl border border-line bg-paper p-6">
-            <h3 className="text-lg font-semibold text-ink">University rankings context</h3>
-            <p className="mt-2 text-sm leading-6 text-slate-600">
-              Sukkur IBA University's presence in international rankings (verified from QS, Times Higher Education, and university public communications). As QEC Director, Prof. Khan supported the institutional submissions and evidence portfolios feeding these processes.
-            </p>
-            <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700">
-              {universityRankingsContext.map((item) => (
-                <li className="flex gap-3" key={item}>
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-paper py-16">
         <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
           <SectionHeading
             eyebrow="Governance"
-            title="Statutory bodies, committees, and academic governance"
-            text="Prof. Khan has served on a wide range of university statutory bodies and committees as a member and convener, covering accreditation, OBE, programme review, plagiarism, and academic selection."
+            title="Committees, accreditation, and university statutory bodies"
+            text="Sustained involvement in university governance, outcome-based education, program review, plagiarism review, faculty councils, and academic selection processes."
           />
-          <div className="rounded-xl border border-line bg-white p-6 shadow-sm">
+          <div className="rounded-xl border border-line bg-paper p-6 shadow-sm">
             <ul className="space-y-3 text-sm leading-6 text-slate-700">
               {governanceRoles.map((role) => (
                 <li className="flex gap-3" key={role}>
@@ -116,7 +81,7 @@ export default function LeadershipPage() {
         </div>
       </section>
 
-      <section className="bg-white py-16">
+      <section className="bg-paper py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Editorial and review service"
@@ -124,11 +89,11 @@ export default function LeadershipPage() {
           />
           <div className="mt-10 grid gap-5 lg:grid-cols-2">
             {reviewerGroups.map((group) => (
-              <article className="rounded-lg border border-line bg-paper p-6" key={group.title}>
+              <article className="rounded-lg border border-line bg-white p-6" key={group.title}>
                 <h2 className="text-xl font-semibold text-ink">{group.title}</h2>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {group.items.map((item) => (
-                    <span className="rounded-full bg-white px-3 py-1.5 text-sm text-slate-700" key={item}>
+                    <span className="rounded-full bg-paper px-3 py-1.5 text-sm text-slate-700" key={item}>
                       {item}
                     </span>
                   ))}
@@ -136,7 +101,7 @@ export default function LeadershipPage() {
               </article>
             ))}
           </div>
-          <div className="mt-6 rounded-lg border border-line bg-paper p-6">
+          <div className="mt-6 rounded-lg border border-line bg-white p-6">
             <h2 className="text-xl font-semibold text-ink">Conference leadership</h2>
             <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-700">
               {conferenceLeadership.map((item) => (
@@ -155,7 +120,7 @@ export default function LeadershipPage() {
               Scholarships, grants, and funded recognition
             </h2>
             <p className="mt-4 text-base leading-7 text-white/[0.74]">
-              Displayed honors are limited to those listed in the CV.
+              Honors are limited to those recorded in the CV.
             </p>
           </div>
           <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">

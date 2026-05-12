@@ -60,7 +60,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-4 text-center text-xs text-white/[0.55]">
-        {"\u00a9"} 2026 Dr. Saeed Ahmed Khan.
+        {"\u00a9"} {new Date().getFullYear()} {profile.name}. Academic website generated from CV-sourced data.
       </div>
     </footer>
   );

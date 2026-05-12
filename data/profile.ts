@@ -4,6 +4,7 @@ export const siteUrl = "https://saeed-ahmed-khan.example.edu";
 
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
   { label: "Research", href: "/research" },
   { label: "Publications", href: "/publications" },
   { label: "Leadership", href: "/leadership" },
@@ -15,7 +16,7 @@ export const navItems: NavItem[] = [
 export const profile = {
   name: "Saeed Ahmed Khan",
   honorific: "Prof.",
-  credentials: "Ph.D. | Senior Member IEEE",
+  credentials: "Ph.D. | Senior Member IEEE | National Certified Reviewer (Sindh HEC)",
   currentTitle: "Dean, Faculty of Engineering and Technology",
   department: "Department of Electrical Engineering",
   institution: "Sukkur IBA University",
@@ -25,12 +26,12 @@ export const profile = {
   address:
     "Department of Electrical Engineering, Sukkur IBA University, Sindh, Pakistan",
   tagline:
-    "Flexible electronics, self-powered sensors, thermogalvanic hydrogels, nanogenerators, and engineering education leadership.",
+    "Flexible electronics, self-powered sensors, thermogalvanic hydrogels, nanogenerators, and engineering-education leadership.",
   imagePath: "/images/profile/main-profile.jpg",
   positioning:
-    "An engineering academic and materials-sensing researcher advancing flexible, wearable, self-powered, and thermogalvanic sensing systems while leading engineering education, accreditation, and quality-enhancement initiatives.",
+    "Engineering academic and materials-sensing researcher advancing flexible, wearable, self-powered, and thermogalvanic sensing systems while leading engineering education, accreditation, and quality enhancement at institutional scale. National Certified Reviewer of Higher Education Institutions (Sindh HEC, 100-hour formal review training).",
   shortBio:
-    "Prof. Saeed Ahmed Khan is Dean of the Faculty of Engineering and Technology at Sukkur IBA University. His research bridges nanomaterials, flexible electronics, self-powered sensing, thermogalvanic hydrogels, triboelectric nanogenerators, and energy-harvesting systems, with academic leadership experience in quality assurance, accreditation, rankings, editorial service, and graduate supervision.",
+    "Prof. Saeed Ahmed Khan is Dean of the Faculty of Engineering and Technology at Sukkur IBA University. His research bridges nanomaterials, flexible electronics, self-powered sensing, thermogalvanic hydrogels, triboelectric nanogenerators, and energy-harvesting systems. His leadership portfolio spans quality assurance, accreditation, HEC and international rankings (THE Impact, THE World, UI GreenMetric), editorial service for an HEC-recognized journal, and conference leadership across three editions of iCoMET.",
   cvPath: "/documents/Saeed-Ahmed-Khan-CV.pdf"
 };
 
@@ -116,7 +117,7 @@ export const jsonLd = {
     "@type": "Organization",
     name: "Faculty of Engineering and Technology, Sukkur IBA University"
   },
-  email: `mailto:${profile.email}`,
+  email: "mailto:" + profile.email,
   telephone: profile.phone,
   address: profile.address,
   sameAs: profileLinks.filter((link) => link.external).map((link) => link.href),
@@ -133,6 +134,8 @@ export const jsonLd = {
     "Thermogalvanic hydrogels",
     "Energy harvesting",
     "Engineering education",
-    "Quality assurance"
+    "Quality assurance",
+    "Accreditation",
+    "HEC rankings"
   ]
 };
